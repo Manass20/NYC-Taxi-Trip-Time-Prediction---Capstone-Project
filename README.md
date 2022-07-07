@@ -6,7 +6,7 @@ The dataset is based on the 2016 NYC Yellow Cab trip record data made available 
 
 The primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
 ## Data Overview
-●id - A unique identifier for each trip.
+● id - A unique identifier for each trip.
 
 ● vendor_id - A code indicating the provider associated with the trip record.
 
@@ -31,3 +31,15 @@ Y=store and forward trip;
 N=not a store and forward trip.
 
 ● trip_duration - duration of the trip in seconds.
+## Conclusion
+● Our main goal in this project was to determine different factors affecting to Taxi trip duration and service.
+
+● Before visulization of the data, data analysis was done and checked for the missing values and treated.
+
+● From data visualization, found that Most of the trips durations took between 10-30 mins to complete.
+
+● To predict the trip duration for a particular taxi, we can conclude that XGBooster Regressor is the most suitable model as compared to the other models.
+
+● This type of prediction and research in the cab booking segment helps companies to gain more profit. Predicting bookings and peak hours are a very important factor for cab providers.
+
+
