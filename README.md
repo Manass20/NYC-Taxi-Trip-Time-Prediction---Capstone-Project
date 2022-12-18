@@ -1,12 +1,12 @@
 # NYC-Taxi-Trip-Time-Prediction---Capstone-Project
 ![istockphoto-518657226-612x612](https://user-images.githubusercontent.com/103633582/183984770-5a58d9e3-f4f7-4f32-b97c-ec52b2ce17b7.jpg)
-## Problem Statement
+## 📋 Problem Statement
 My task is to build a model that predicts the total ride duration of taxi trips in New York City. Your primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
-## Data Description
+## 📋 Data Description
 The dataset is based on the 2016 NYC Yellow Cab trip record data made available in Big Query on Google Cloud Platform. The data was originally published by the NYC Taxi and Limousine Commission (TLC). The data was sampled and cleaned for the purposes of this project. Based on individual trip attributes, you should predict the duration of each trip in the test set. NYC Taxi Data.csv - The Dataset contains 1458644 trip records.
 
 The primary dataset is one released by the NYC Taxi and Limousine Commission, which includes pickup time, geo-coordinates, number of passengers, and several other variables.
-## Data Overview
+## 📋 Data Overview
 ● id - A unique identifier for each trip.
 
 ● vendor_id - A code indicating the provider associated with the trip record.
@@ -32,7 +32,7 @@ Y=store and forward trip;
 N=not a store and forward trip.
 
 ● trip_duration - duration of the trip in seconds.
-## Conclusion
+## 📋 Conclusion
 ● Our main goal in this project was to determine different factors affecting to Taxi trip duration and service.
 
 ● Before visulization of the data, data analysis was done and checked for the missing values and treated.
@@ -42,5 +42,6 @@ N=not a store and forward trip.
 ● To predict the trip duration for a particular taxi, we can conclude that XGBooster Regressor is the most suitable model as compared to the other models.
 
 ● This type of prediction and research in the cab booking segment helps companies to gain more profit. Predicting bookings and peak hours are a very important factor for cab providers.
+
 
 
