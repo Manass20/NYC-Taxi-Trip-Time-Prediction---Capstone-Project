@@ -32,7 +32,7 @@ Y=store and forward trip;
 N=not a store and forward trip.
 
 ● trip_duration - duration of the trip in seconds.
-## 📋 Conclusion
+## 📜 Conclusion
 ● Our main goal in this project was to determine different factors affecting to Taxi trip duration and service.
 
 ● Before visulization of the data, data analysis was done and checked for the missing values and treated.
